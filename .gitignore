@@ -10,6 +10,8 @@ package-lock.json
 .rdoc-dist
 .vscode
 yarn.lock
+umd
+
 
 *.bak
 *.tem

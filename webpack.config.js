@@ -1,3 +1,4 @@
+const path = require("path")
 module.exports = {
   mode: "production",
   entry: './src/index.tsx',
@@ -15,6 +16,7 @@ module.exports = {
     extensions: ['.tsx', '.ts', '.js'],
   },
   output: {
+    path: path.resolve(process.cwd(), 'umd'),
     library: {
       type: 'umd',
       name: "demos1",
