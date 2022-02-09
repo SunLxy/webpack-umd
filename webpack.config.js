@@ -19,7 +19,7 @@ module.exports = {
     path: path.resolve(process.cwd(), 'umd'),
     library: {
       type: 'umd',
-      name: "demos1",
+      name: "KS",
     },
     globalObject: 'this',
   },
